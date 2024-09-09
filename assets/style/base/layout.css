@@ -10,4 +10,9 @@
   margin: auto;
 }
 
+.comps-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 

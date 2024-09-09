@@ -1,11 +1,7 @@
-const { useState, useEffect, useRef } = React
-
 export function AnimalList({ animalInfos }) {
-    console.log(animalInfos)
-
     return (
         <section className="animal-list">
-            <h2>Rare Animals</h2>
+            <h3>Rare Animals</h3>
 
             <table>
                 <tbody>

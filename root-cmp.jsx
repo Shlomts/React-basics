@@ -1,4 +1,8 @@
 import { AnimalList } from "./cmps/AnimalList.jsx"
+import { SeasonClock } from "./cmps/SeasonClock.jsx"
+// import { CountDown } from "./cmps/CountDown.jsx"
+// import { WatcherApp } from "./cmps/WatcherApp.jsx"
+// import { MouseMonitor } from "./cmps/MouseMonitor.jsx"
 
 export function App() {
     const animals = [
@@ -10,14 +14,17 @@ export function App() {
     return (
         <section className="app">
             <header className="app-header">
-                <h1>My App</h1>
+                <h1>Epic App</h1>
             </header>
             <main className="container">
-                Hello React App
-                <AnimalList animalInfos={animals} />
-                {/* <SimpleTimer /> */}
-                {/* <UserPreview /> */}
-                {/* <SimpleCounter /> */}
+                <h2>React! The App</h2>
+                <div className="comps-container">
+                    <AnimalList animalInfos={animals} />
+                    <SeasonClock />
+                    {/* <CountDown />
+                    <WatcherApp />
+                    <MouseMonitor /> */}
+                </div>
             </main>
         </section>
     )

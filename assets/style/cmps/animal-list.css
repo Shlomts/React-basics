@@ -1,7 +1,7 @@
+
 table {
     background-color: brown;
     color: whitesmoke;
-    gap: 1em;
     text-align: left;
 }
 
@@ -10,5 +10,5 @@ td {
 }
 
 a {
-    color: rgb(38, 0, 255);
+    color: rgb(249, 101, 222);
 }
