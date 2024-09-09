@@ -1,0 +1,14 @@
+table {
+    background-color: brown;
+    color: whitesmoke;
+    gap: 1em;
+    text-align: left;
+}
+
+td {
+    padding: 0.5em;
+}
+
+a {
+    color: rgb(38, 0, 255);
+}
