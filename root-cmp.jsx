@@ -1,6 +1,6 @@
 import { AnimalList } from "./cmps/AnimalList.jsx"
 import { SeasonClock } from "./cmps/SeasonClock.jsx"
-// import { CountDown } from "./cmps/CountDown.jsx"
+import { CountDown } from "./cmps/CountDown.jsx"
 // import { WatcherApp } from "./cmps/WatcherApp.jsx"
 // import { MouseMonitor } from "./cmps/MouseMonitor.jsx"
 
@@ -21,8 +21,11 @@ export function App() {
                 <div className="comps-container">
                     <AnimalList animalInfos={animals} />
                     <SeasonClock />
-                    {/* <CountDown />
-                    <WatcherApp />
+                    <CountDown startFrom={10} onDone={() => {
+                            console.log("Done!")
+                        }}
+                    />
+                    {/* <WatcherApp />
                     <MouseMonitor /> */}
                 </div>
             </main>

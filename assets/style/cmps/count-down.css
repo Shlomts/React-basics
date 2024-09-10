@@ -1,0 +1,22 @@
+.count-down {
+    background-color: rgb(255, 175, 88);
+    text-align: center;
+    max-height: 150px;
+    
+}
+
+.count-down h3{
+    padding: 1em;
+}
+
+.count-down p{
+    font-family: monospace;
+    font-size: 2em;
+}
+
+
+.alert p {
+    color: red;
+    text-transform: 1px solid black;
+    
+}
